@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-
 body {
     background: linear-gradient(103.06deg, rgba(235, 89, 110, 0.12) 0%, rgba(53, 31, 57, 0.12) 100%), #101010;
 }
@@ -100,77 +98,7 @@ body {
     margin: 0 0 18px 0;
 }
 
-.btn-fill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 26px 16.5px;
 
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    color: #F4F4F4;
-    background: #EB596E;
-    border-radius: 29px;
-    margin: 0px 22px 0px 0px;
-}
-@media (max-width: 720px){
-    .btn-fill{
-        margin: 0;
-        padding: 16px 46px 16.5px;
-    }
-}
-
-.btn-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 16px 0px 16.5px;
-    border-radius: 29px;
-
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    color: #F4F4F4;
-    opacity: 0.76;
-}
-
-.btn-outline {
-    padding: 16px 26px 16.5px;
-    border: 1.6px solid #EB596E;
-    box-sizing: border-box;
-    border-radius: 29px;
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.2px;
-    color: #EB596E;
-}
-.btn-info{
-    display: block;
-    text-align: center;
-    padding: 101px 0 170px 0;
-}
-
-@media (max-width: 1024px) {
-    .btn-info{
-        padding: 76px 0 139px 0;
-    }
-
-}
 .text-body {
     font-family: Open Sans, sans-serif;
     font-style: normal;
@@ -361,19 +289,7 @@ background-image: url(/img/01.png);
     padding: 0px;
 }
 
-.btn-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    margin: 0;
-}
-@media (max-width: 720px){
-    .btn-cards{
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 
 .text-cards {
     display: flex;
@@ -472,20 +388,7 @@ background-image: url(/img/01.png);
         padding: 0;
     }
 }
-.btn-docs{
-    font-family: Open Sans, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    color: #F4F4F4;
-}
-@media (max-width: 720px) {
-    .btn-docs{
-        font-size: 14px;
-        line-height: 16px;
-    }
-}
+
 .rectangle{
     height: 1px;
     background: #EB596E;
